@@ -15,19 +15,19 @@
 <table width="400" border="0" cellpadding="5">
 <tr>  
 <th width="213" align="right" scope="row">Enter category id</th> 
-<td width="161"><input type="text" name="catid" size="20"  /></td>  
+<td width="161"><input type="text" name="catid" size="20" value="<?php echo $id; ?>" /></td>  
 </tr>  
 <tr>  
 <th align="right" scope="row">Enter category name</th>  
-<td><input type="text" name="catname" size="20"   /></td>  
+<td><input type="text" name="catname" size="20"  value="<?php echo $name; ?>"  /></td>  
 </tr>  
 <tr>  
 <th align="right" scope="row">Enter category description</th>  
-<td><input type="text" name="catdes" size="20"   /></td>  
+<td><input type="text" name="catdes" size="20" value="<?php echo $description; ?>" /></td>  
 </tr>  
 <tr>  
 <th align="right" scope="row">Enter category date</th>  
-<td><input type="text" name="catdate"  size="20"  /> </td>  
+<td><input type="text" name="catdate"  size="20" value="<?php echo $entered_date; ?>" /> </td>  
 </tr>  
 <tr>  
 <th align="right" scope="row">&nbsp;</th>  
